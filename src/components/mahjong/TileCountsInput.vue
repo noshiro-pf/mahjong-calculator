@@ -101,7 +101,7 @@
     </b-tbody>
   </b-table-simple>
 </template>
- 
+
 <script>
 import {
   Tile,

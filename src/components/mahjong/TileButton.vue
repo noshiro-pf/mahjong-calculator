@@ -6,7 +6,7 @@
     <TileImage :tile="tile" />
   </div>
 </template>
- 
+
 <script>
 import TileImage from "./TileImage.vue";
 

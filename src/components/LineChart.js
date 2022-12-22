@@ -1,5 +1,5 @@
-import { Line, mixins } from "vue-chartjs";
 import chartjsPluginAnnotation from "chartjs-plugin-annotation";
+import { Line, mixins } from "vue-chartjs";
 
 export default {
   extends: Line,
@@ -14,7 +14,7 @@ export default {
       handler() {
         this.renderChart(this.chartData, this.options);
       },
-      deep: true
-    }
-  }
+      deep: true,
+    },
+  },
 };

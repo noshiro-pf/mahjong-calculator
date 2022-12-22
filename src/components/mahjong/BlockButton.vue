@@ -6,7 +6,7 @@
     <MeldedBlock :block="block" :seat="0" />
   </div>
 </template>
- 
+
 <script>
 import MeldedBlock from "./MeldedBlock.vue";
 
